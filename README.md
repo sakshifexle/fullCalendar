@@ -1,20 +1,19 @@
-## Requirements
+# Requirements
+- PHP >= 8.0
+- Laravel >= 9.x
+- Composer
+- MySQL or any other supported database
+- Node.js and npm (for front-end assets)
 
-PHP >= 8.0
-Laravel >= 9.x
-Composer
-MySQL or any other supported database
-Node.js and npm (for front-end assets)
+# Installation
 
-## Installation
-
-# Clone the repository:
+## Clone the repository:
 `git clone https://github.com/sakshifexle/fullCalendar.git`
 
-# Navigate into the project directory:
+## Navigate into the project directory:
 `cd fullcalendar`
 
-# Install dependencies:
+## Install dependencies:
 Run Composer to install PHP dependencies:
 `composer install`
 
@@ -35,12 +34,12 @@ Configure your .env file with the correct database and application details:
 Generate application key:
 `php artisan key:generate`
 
-# Run migrations:
+## Run migrations:
 
 This will create the necessary tables for the application:
 `php artisan migrate`
 
-# Usage
+## Usage
 
 Start the local development server:
 `php artisan serve`
